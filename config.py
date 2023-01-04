@@ -1,10 +1,8 @@
-# import os
-# from dotenv import load_dotenv
-#
-# load_dotenv()
-# TOKEN = str(os.getenv('TOKEN'))
+import os
+from dotenv import load_dotenv
 
-TOKEN = '1855055611:AAGbmzKE3BJcRFL85b4h9USXXaLWSaHwoa0'
+load_dotenv()
+TOKEN = str(os.getenv('TOKEN'))
 STARTER_TABLE = 'table_for_sudoku.jpg'
 TABLE = 'sudoku.jpg'
 FONT = 'CeraPro-Light.ttf'
